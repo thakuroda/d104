@@ -1,0 +1,48 @@
+body{
+    background-color: #ddd;
+    margin: 0;
+}
+
+img{
+    width: 50px;
+}
+header{
+    align-items: center;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    
+} 
+nav a{
+    color: #333;
+    font-size: 1.2rem;
+    padding: 0 5px;
+    text-decoration: none;
+}
+    .menu-hamburguer{
+        display: block;
+   }
+
+@media(max-width: 700px){
+    nav{
+        position: absolute;
+        right: 0;
+        top: 70px;
+        width: 100%;
+        background-color: white;
+        text-align: right;
+    }
+    nav.ativa{
+        display: block
+    }
+
+    nav a{
+        display: block;
+        padding: 5px 20px;
+    }
+
+    .menu-hamburguer{
+        display: block;
+   }
+}
